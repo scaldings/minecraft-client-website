@@ -86,12 +86,13 @@ main {
 }
 .header {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   font-size: 72px;
   color: #ffffff;
+  text-shadow: 2px 2px #222222;
   transition: 0.3s;
 }
 .description {
@@ -104,6 +105,7 @@ main {
   width: 600px;
   font-size: 18px;
   color: #d8d8d8;
+  text-shadow: 1px 1px #222222;
   word-wrap: normal;
   transition: 0.3s;
 }
